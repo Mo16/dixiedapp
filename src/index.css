@@ -1,0 +1,39 @@
+/* index.css */
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Love Ya Like A Sister";
+    src: url("./fonts/LoveYaLikeASister.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Gloria Hallelujah */
+@font-face {
+    font-family: "Gloria Hallelujah";
+    src: url("./fonts/GloriaHallelujah.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Additional styles using the custom fonts */
+.love-ya-like-a-sister {
+    font-family: "Love Ya Like A Sister", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Gloria Hallelujah", sans-serif;
+
+}
